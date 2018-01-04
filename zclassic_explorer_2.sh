@@ -1,7 +1,5 @@
 #!/bin/bash
 
-# Aayan "anarch3"
-# 2017/3/5
 
 WHO=$(whoami)
 
