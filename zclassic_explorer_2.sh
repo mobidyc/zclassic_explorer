@@ -39,10 +39,10 @@ cat << EOF > bitcore-node.json
         "exec": "$HOME/zclassic-addressindexing/src/zcashd"
       }
     },
-     "insight-ui-zcash": {
+     "insight-ui-zclassic": {
       "apiPrefix": "api"
      },
-    "insight-api-zcash": {
+    "insight-api-zclassic": {
       "routePrefix": "api"
     }
   }
