@@ -28,8 +28,8 @@ cat << EOF > bitcore-node.json
   "port": 80,
   "services": [
     "bitcoind",
-    "insight-api-zcash",
-    "insight-ui-zcash",
+    "insight-api-zclassic",
+    "insight-ui-zclassic",
     "web"
   ],
   "servicesConfig": {
