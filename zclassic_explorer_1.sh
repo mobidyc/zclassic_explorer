@@ -1,7 +1,5 @@
 #!/bin/bash
 
-# Aayan "anarch3"
-# 2017/3/5
 
 sudo apt-get -y install \
       build-essential pkg-config libc6-dev m4 g++-multilib \
@@ -10,7 +8,7 @@ sudo apt-get -y install \
 
 # clone and build patched version of zcash (branched and patched from https://github.com/str4d/zcash)
 
-git clone https://github.com/aayanl/zclassic-addressindexing.git
+git clone https://github.com/johandjoz/zclassic-addressindexing.git
 cd zclassic-addressindexing
 git checkout v1.0.4-bitcore-zclassic
 ./zcutil/fetch-params.sh
