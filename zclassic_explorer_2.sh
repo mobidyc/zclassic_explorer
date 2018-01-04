@@ -21,13 +21,13 @@ npm install str4d/bitcore-node-zcash
 cd zclassic-explorer
 
 # install patched insight api/ui (branched and patched from https://github.com/str4d/zcash)
-../node_modules/bitcore-node-zcash/bin/bitcore-node install str4d/insight-api-zcash str4d/insight-ui-zcash
+../node_modules/bitcore-node-zcash/bin/bitcore-node install johandjoz/insight-api-zclassic johandjoz/insight-ui-zclassic
 
 # create bitcore config file for bitcore and zcashd/zclassicd
 cat << EOF > bitcore-node.json
 {
   "network": "mainnet",
-  "port": 3001,
+  "port": 80,
   "services": [
     "bitcoind",
     "insight-api-zcash",
@@ -71,5 +71,5 @@ maxconnections=1000
 
 EOF
 
-echo "Start the block explorer, open in your browser http://server_ip:3001"
+echo "Start the block explorer, open in your browser http://server_ip"
 echo "nvm use v4; ./node_modules/bitcore-node-zcash/bin/bitcore-node start"
