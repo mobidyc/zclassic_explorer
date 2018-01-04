@@ -51,7 +51,7 @@ cat << EOF > bitcore-node.json
 EOF
 
 # create zcash.conf
-cat << EOF > data/zclassic.conf
+cat << EOF > data/zcash.conf
 server=1
 whitelist=127.0.0.1
 txindex=1
