@@ -69,6 +69,7 @@ maxconnections=1000
 addnode=149.56.129.104
 addnode=51.254.132.145
 addnode=139.99.100.70
+addnode=50.112.137.36
 
 EOF
 
