@@ -24,7 +24,7 @@ open http://server_ip/insight/ in browser
 ```
 apt-get install mongodb
 apt-get install libkrb5-dev
-git clone https://github.com/bitpay/bitcore-wallet-service.git
+git clone https://github.com/johandjoz/bitcore-wallet-service
 cd bitcore-wallet-service && npm install
 
 ```
