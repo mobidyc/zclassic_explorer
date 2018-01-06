@@ -70,7 +70,10 @@ maxconnections=1000
 addnode=149.56.129.104
 addnode=51.254.132.145
 addnode=139.99.100.70
-addnode=50.112.137.36
+addnode=50.112.137.36 # http://zcl-explorer.com/insight/status
+addnode=188.166.136.203 # http://eu1.zcl-explorer.com/insight/status  ## EU Server located in London
+
+##Coming soon ## http://as1.zcl-explorer.com/insight/status  ## Asia Server located in Singapore
 
 
 EOF
