@@ -1,11 +1,10 @@
 # zclassic_explorer
 
+Getting Started
 ```
 ./zclassic_explorer_1.sh
 ```
 logout (you need to relogin to get bash variables for NVM)
-
-and
 ```
 ./zclassic_explorer_2.sh
 ```
@@ -23,5 +22,6 @@ BWS needs mongoDB. You can configure the connection and other parameters at conf
 npm start
 ```
 The wallet service should be running as a service within Bitcore. You may point wallets on the same network to:
+
 http://your-bitcore-node-ip:3232/bws/api
 
