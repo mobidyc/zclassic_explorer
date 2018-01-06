@@ -19,7 +19,7 @@ logout (you need to relogin to get bash variables for NVM)
 
 open http://server_ip/insight/ in browser
 
-Add bitcore-wallet-service
+# Add bitcore-wallet-service
 
 ```
 apt-get install mongodb
