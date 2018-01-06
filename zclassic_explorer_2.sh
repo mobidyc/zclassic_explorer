@@ -53,7 +53,6 @@ EOF
 # create zcash.conf
 cat << EOF > data/zcash.conf
 server=1
-rpcport=8232
 whitelist=127.0.0.1
 txindex=1
 addressindex=1
