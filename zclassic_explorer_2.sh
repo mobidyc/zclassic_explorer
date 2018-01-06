@@ -53,6 +53,7 @@ EOF
 # create zcash.conf
 cat << EOF > data/zcash.conf
 server=1
+rpcport=8232
 whitelist=127.0.0.1
 txindex=1
 addressindex=1
@@ -64,14 +65,16 @@ rpcallowip=127.0.0.1
 rpcuser=bitcoin
 rpcpassword=local321
 uacomment=bitcore
-showmetrics=0
+showmetrics=1
 maxconnections=1000
 addnode=149.56.129.104
 addnode=51.254.132.145
 addnode=139.99.100.70
 addnode=50.112.137.36
 
+
 EOF
 
 echo "Start the block explorer, open in your browser http://server_ip"
-echo "nvm use v4; ./node_modules/bitcore-node-zcash/bin/bitcore-node start"
+echo "if this does not work and gives an error due to port 80 you can change the port or run with escilated priviliges"
+echo "nvm use v4; ./zclassic-explorer/node_modules/bitcore-node-zcash/bin/bitcore-node start"
