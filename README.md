@@ -5,6 +5,9 @@
 logout (you need to relogin to get bash variables for NVM)
 ./zclassic_explorer_2.sh
 open http://server_ip/insight/ in browser
+
+or
+
 ./zclassic_wallet_service.sh
 http://your-bitcore-node-ip:3232/bws/api
 ```
