@@ -10,7 +10,7 @@ logout (you need to relogin to get bash variables for NVM)
 ```
 open http://server_ip/insight/ in browser
 
-for bitcore-wallet-service
+Add bitcore-wallet-service
 ```
 apt-get install mongodb
 apt-get install libkrb5-dev
