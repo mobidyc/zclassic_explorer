@@ -78,6 +78,6 @@ addnode=159.89.198.93     # http://as1.zcl-explorer.com/insight/status  ## Asia 
 EOF
 
 echo "Start the block explorer, open in your browser http://server_ip"
-echo "if this does not work and gives an error due to port 80 you can change the port or run with escilated priviliges"
+echo "if this does not work and gives an error due to port 80 you can change the port or run with escalated priviliges"
 echo "Run the command on the following line to start the block explorer"
 echo "nvm use v4; ./zclassic-explorer/node_modules/bitcore-node-zcash/bin/bitcore-node start"
