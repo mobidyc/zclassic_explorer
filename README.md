@@ -24,4 +24,4 @@ npm start
 ```
 The wallet service should be running as a service within Bitcore. You may point wallets on the same network to:
 http://your-bitcore-node-ip:3232/bws/api
-```
+
