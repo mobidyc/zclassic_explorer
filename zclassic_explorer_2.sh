@@ -77,4 +77,5 @@ EOF
 
 echo "Start the block explorer, open in your browser http://server_ip"
 echo "if this does not work and gives an error due to port 80 you can change the port or run with escilated priviliges"
+echo "Run the command on the following line to start the block explorer"
 echo "nvm use v4; ./zclassic-explorer/node_modules/bitcore-node-zcash/bin/bitcore-node start"
