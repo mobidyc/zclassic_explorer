@@ -72,4 +72,4 @@ addnode=139.99.100.70
 EOF
 
 echo "Start the wallet service"
-echo "nvm use v4; ./node_modules/bitcore-node-zcash/bin/bitcore-node start"
+echo "nvm use v4; ./zclassic-wallet-service/node_modules/bitcore-wallet-service/start.sh"
