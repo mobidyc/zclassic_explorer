@@ -64,13 +64,19 @@ rpcallowip=127.0.0.1
 rpcuser=bitcoin
 rpcpassword=local321
 uacomment=bitcore
-showmetrics=0
+showmetrics=1
 maxconnections=1000
 addnode=149.56.129.104
 addnode=51.254.132.145
 addnode=139.99.100.70
+addnode=50.112.137.36          # First # https://zcl-explorer.com/insight/status
+addnode=188.166.136.203        # Second # https://eu1.zcl-explorer.com/insight/status  ## EU Server located in London
+addnode=159.89.198.93          # Third # https://as1.zcl-explorer.com/insight/status  ## Asia Server located in Singapore
+
 
 EOF
 
 echo "Start the block explorer, open in your browser http://server_ip"
-echo "nvm use v4; ./node_modules/bitcore-node-zcash/bin/bitcore-node start"
+echo "if this does not work and gives an error due to port 80 you can change the port or run with escalated priviliges"
+echo "Run the following line as one line of commands to start the block explorer"
+echo "nvm use v4; cd zclassic-explorer; ./node_modules/bitcore-node-zcash/bin/bitcore-node start"
