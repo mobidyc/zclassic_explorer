@@ -1,7 +1,6 @@
 # zclassic_explorer
 
-Getting Started
-Tested on Ubuntu and Debian (server)
+Getting Started - Tested on Ubuntu and Debian (server)
 
 ```
 git clone https://github.com/johandjoz/zclassic_explorer
