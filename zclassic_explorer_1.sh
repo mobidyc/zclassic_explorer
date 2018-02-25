@@ -8,9 +8,8 @@ sudo apt-get -y install \
 
 # clone and build patched version of zcash (branched and patched from https://github.com/str4d/zcash)
 
-git clone https://github.com/johandjoz/zclassic-addressindexing.git
+git clone https://github.com/z-classic/zclassic
 cd zclassic-addressindexing
-git checkout v1.0.4-bitcore-zclassic
 ./zcutil/fetch-params.sh
 ./zcutil/build.sh -j$(nproc)
 
